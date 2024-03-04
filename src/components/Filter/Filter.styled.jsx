@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 
 export const Label = styled.label`
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  font-size: 16px;
-  font-weight: 500;
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: 600;
 `;
 export const Input = styled.input`
-  width: 250px;
-  padding: 5px;
-  border-radius: 5px;
+padding: 5px;
+border: 1px solid #94858e;
+border-radius: 4px;
+font-size: 18px;
 `;

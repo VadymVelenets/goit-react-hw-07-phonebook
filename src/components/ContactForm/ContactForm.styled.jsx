@@ -1,21 +1,38 @@
 import styled from 'styled-components';
 
-export const Form = styled.form``;
+export const Form = styled.form`
+display: flex;
+flex-direction: column;
+width: 300px;
+margin: 0 0 20px 0;
+border: 1px solid #94858e;
+padding: 20px;
+`;
 
 export const Label = styled.label`
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.25em;
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: 600;
 `;
 
 export const Input = styled.input`
-  width: 250px;
-  padding: 5px;
-  border-radius: 5px;
+padding: 5px;
+border: 1px solid #94858e;
+border-radius: 4px;
+font-size: 18px;
+margin-left: 80px;
+margin-bottom: 20px;
 `;
 export const Button = styled.button`
-  border-radius: 5px;
-  margin-top: 0.5em;
-  padding: 0.25em 1em;
-  cursor: pointer;
+width: 150px;
+font-size: 17px;
+border-radius: 4px;
+padding: 5px 10px;
+background-color: #a6ff96;
+color: #fff;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s;
+&:hover {
+background-color: #ade792;}
 `;

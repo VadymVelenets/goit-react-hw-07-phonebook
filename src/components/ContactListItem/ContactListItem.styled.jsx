@@ -16,8 +16,13 @@ export const ContactNumber = styled.span`
 `;
 
 export const Button = styled.button`
-  margin: 8px;
-  padding: 4px 14px;
-  border-radius: 5px;
-  cursor: pointer;
+background-color: #d80032;
+color: #fff;
+border: none;
+padding: 5px 10px;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.2s;
+&:hover {
+background-color: #e74646;}
 `;
